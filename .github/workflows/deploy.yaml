@@ -32,3 +32,4 @@ jobs:
           service-env: "DATABASE_URL=@PRISMA_DATABASE_URL"
           service-ports: "3000:http"
           service-routes: "/:3000"
+          skip-cache: true
